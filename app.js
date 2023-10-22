@@ -1,12 +1,9 @@
-import functions from "firebase-functions";
-import admin from "firebase-admin";
 import express from "express";
 import nodemailer from "nodemailer";
 import cors from "cors";
 import "dotenv/config";
 
 const app = express();
-admin.initializeApp();
 
 app.use(cors());
 app.use(express.json());
