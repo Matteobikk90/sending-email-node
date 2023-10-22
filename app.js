@@ -87,6 +87,22 @@ const sendContactEmail = async ({ name, email, phone, message }) => {
         .catch(() => "Email not sent");
 };
 
+app.get(
+    "/send_email_booking",
+    async (_, res) =>
+        await sendEmailBooking()
+            .then((response) => res.send(response))
+            .catch((error) => res.status(500).send(error))
+);
+
+app.get(
+    "/send_contact_email",
+    async (_, res) =>
+        await sendEmailBooking()
+            .then((response) => res.send(response))
+            .catch((error) => res.status(500).send(error))
+);
+
 app.post(
     "/send_email_booking",
     async (req, res) =>
