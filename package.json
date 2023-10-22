@@ -1,20 +1,12 @@
 {
-    "name": "sending-email-node",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "nodemailer": "^6.9.6"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Matteobikk90/sending-email-node.git"
+    "devDependencies": {
+        "nodemon": "^3.0.1"
     },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Matteobikk90/sending-email-node/issues"
-    },
-    "homepage": "https://github.com/Matteobikk90/sending-email-node#readme"
+    "type": "module"
 }
