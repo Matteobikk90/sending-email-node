@@ -1,0 +1,20 @@
+{
+    "name": "sending-email-node",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Matteobikk90/sending-email-node.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Matteobikk90/sending-email-node/issues"
+    },
+    "homepage": "https://github.com/Matteobikk90/sending-email-node#readme"
+}
